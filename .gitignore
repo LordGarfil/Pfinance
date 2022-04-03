@@ -174,3 +174,5 @@ dmypy.json
 cython_debug/
 
 vendor/
+
+.next/
