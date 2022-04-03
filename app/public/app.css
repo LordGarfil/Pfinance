@@ -1,0 +1,60 @@
+*, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+/* Prestamos*/
+
+.prestamos-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 40px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Creation prestamos */
+
+.creation-prestamo-container{
+  padding: 30px 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.creation-prestamo-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+}
+
+.creation-prestamo-form > .form-floating, .creation-prestamo-form > .actions-group{
+  width: 300px;
+}
+
+/* General */
+
+.btn-primary > a{
+  text-decoration: none;
+  color: white;
+}
